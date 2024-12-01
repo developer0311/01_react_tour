@@ -40,6 +40,6 @@ ReactDom.render(<h1>Hello World!</h1>, document.getElementById("root"));
   ```
 
 ## Our first React code
-- Your can click on [CodeSandbox ](https://codesandbox.io/p/sandbox/introduction-to-jsx-forked-vqm4wh) to fork for the code   
+- Your can click on [CodeSandbox ](https://codesandbox.io/p/sandbox/introduction-to-jsx-forked-vqm4wh) to fork the code   
   or
 - In my-react-app/src/main.jsx i have written some code. Check it out. But in future it may not available for many projects.
