@@ -42,7 +42,7 @@ react-self-learning/
 Clone this repository:
 
 ```bash
-git clone https://github.com/<your-username>/react-self-learning.git
+git clone https://github.com/developer0311/01_react_tour.git
 ```
 
 Navigate through the subfolders for specific topics.
