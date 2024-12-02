@@ -36,7 +36,7 @@ Here are some examples of how you can use JavaScript expressions in JSX:
 
     const fName = "Diprati";
     const lName = "Das";
-    const number = Math.floor(Math.random() \* 10);
+    const number = Math.floor(Math.random() * 10);
 
     ReactDOM.render(
     <div>
