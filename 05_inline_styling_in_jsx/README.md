@@ -53,12 +53,29 @@ Check out the live example and experiment with the code on CodeSandbox:
 
 ## **React Styling Practice**
 
+Strengthen your React skills with this styling exercise.
+
+index.js:
+
 ```jsx
-//Create a React app from scratch.
-//Show a single h1 that says "Good morning" if between midnight and 12PM.
-//or "Good Afternoon" if between 12PM and 6PM.
-//or "Good evening" if between 6PM and midnight.
-//Apply the "heading" style in the styles.css
-//Dynamically change the color of the h1 using inline css styles.
-//Morning = red, Afternoon = green, Night = blue.
+// Create a React app from scratch.
+// Display a single <h1> with the following conditions:
+// - Show "Good Morning" if the current time is between midnight (12:00 AM) and 12:00 PM.
+// - Show "Good Afternoon" if the current time is between 12:00 PM and 6:00 PM.
+// - Show "Good Evening" if the current time is between 6:00 PM and midnight (12:00 AM).
+// Apply the "heading" style from styles.css to the <h1>.
+// Dynamically change the color of the <h1> text using inline CSS based on the time of day:
+// - Morning = red
+// - Afternoon = green
+// - Evening = blue
+```
+
+styles.css:
+
+```css
+.heading {
+  font-size: 50px;
+  font-weight: bold;
+  border-bottom: 5px solid black;
+}
 ```
