@@ -79,3 +79,8 @@ For example, a `Card` component can use props to render unique details like name
 ---
 
 React Props enable flexibility and modularity, making components highly reusable and adaptable in dynamic applications.
+
+## **Try it on CodeSandbox**
+
+Check out the live example and experiment with the code on CodeSandbox:  
+[Sandbox](https://codesandbox.io/p/sandbox/react-props-fsd36v)
