@@ -2,7 +2,7 @@
 
 ### **Use Case of React Props**
 
-React Props (short for properties) are used to pass data from one component to another in a React application. They make components reusable and dynamic by allowing customization via data inputs. 
+React Props (short for properties) are used to pass data from one component to another in a React application. They make components reusable and dynamic by allowing customization via data inputs.
 
 For example, a `Card` component can use props to render unique details like name, image, phone number, and email for different users.
 
@@ -15,14 +15,14 @@ For example, a `Card` component can use props to render unique details like name
 
    ```jsx
    function Card(props) {
-       return (
-           <div>
-               <h2>{props.name}</h2>
-               <img src={props.img} alt="avatar" />
-               <p>{props.tel}</p>
-               <p>{props.email}</p>
-           </div>
-       );
+     return (
+       <div>
+         <h2>{props.name}</h2>
+         <img src={props.img} alt="avatar" />
+         <p>{props.tel}</p>
+         <p>{props.email}</p>
+       </div>
+     );
    }
    ```
 
@@ -34,15 +34,15 @@ For example, a `Card` component can use props to render unique details like name
 
    ```jsx
    ReactDOM.render(
-       <div>
-           <Card
-               name="John Doe"
-               img="avatar.jpg"
-               tel="123-456-7890"
-               email="john.doe@example.com"
-           />
-       </div>,
-       document.getElementById("root")
+     <div>
+       <Card
+         name="John Doe"
+         img="avatar.jpg"
+         tel="123-456-7890"
+         email="john.doe@example.com"
+       />
+     </div>,
+     document.getElementById("root")
    );
    ```
 
@@ -53,27 +53,31 @@ For example, a `Card` component can use props to render unique details like name
 
 ### **Difference Between HTML Attributes and React Props**
 
-|    **HTML Attribute**     |      **React Props**       |
-|---------------------------|----------------------------|
-| Static and predefined.    | Dynamic and customizable.  |
-| Used for native HTML tags.| Used for React components. |
-| Follows HTML syntax.      | Follows JavaScript syntax. |
+| **HTML Attribute**         | **React Props**            |
+| -------------------------- | -------------------------- |
+| Static and predefined.     | Dynamic and customizable.  |
+| Used for native HTML tags. | Used for React components. |
+| Follows HTML syntax.       | Follows JavaScript syntax. |
 
 #### **Example: HTML Input Attribute**
+
 ```html
 <input type="text" placeholder="Enter your name" />
 ```
+
 - The `type` and `placeholder` are HTML attributes. They are static and cannot be passed dynamically as variables.
 
 #### **Example: React Props**
+
 ```jsx
-<Card 
-    name="Jane Doe"
-    img="avatar2.jpg"
-    tel="987-654-3210"
-    email="jane.doe@example.com"
+<Card
+  name="Jane Doe"
+  img="avatar2.jpg"
+  tel="987-654-3210"
+  email="jane.doe@example.com"
 />
 ```
+
 - The `name`, `img`, `tel`, and `email` are props. They are passed dynamically from the parent and can be changed based on data.
 
 ---
